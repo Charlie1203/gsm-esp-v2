@@ -11,6 +11,17 @@
 	#mobileNav {
 		display: block;
 	}
+	.carrusel{
+		top: 1em;
+		
+	}
+	.clientesDes{
+		display: none;
+	}
+	.clientesRes{
+		display: block;
+	}
+	
 }
 
 .navbarMobile a {
