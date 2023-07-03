@@ -137,7 +137,7 @@
 }
 
 .serviceImg{
-	width: 7em;
+	width: 6em;
 }
 
 .layOut{
@@ -156,4 +156,9 @@
 }
 .clientesDes{
 	display: block;
+}
+
+.presupuestoCont{
+	background: #1870AF;
+	color: white;
 }
