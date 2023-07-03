@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 @media screen and (max-width: 990px) {
 	#desktopNav {
 		display: none;
@@ -11,7 +15,7 @@
 
 .topPart img {
 	position: relative;
-	right: -15em;
+	right: -10%;
 	height: 6em;
 	z-index: 3;
 }
@@ -23,13 +27,21 @@
 
 .infoCont {
 	display: flex;
-	margin-left: 18em;
+	margin-left: 12%;
 	margin-top: 1em;
 	height: 50%;
 }
 
 .infoCont div {
 	margin-left: 2em;
+}
+
+.infoCont p {
+	font-size: 0.9rem;
+}
+
+.infoCont b {
+	font-size: 0.9rem;
 }
 
 .btnDiv {
@@ -114,51 +126,58 @@
 	margin-bottom: 5px;
 }
 
-.carrusel{
+.carrusel {
 	position: relative;
 	top: -1em;
 }
 
-.btnRed{
-	background: #ED2025;
+.btnRed {
+	background: #ed2025;
 	color: white;
 	border-radius: 5px;
 	border: none;
+	font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
 }
 
-.blueFont{
+.blueFont {
 	font-weight: 700;
-	color: #1870AF;
+	color: #1870af;
 	font-size: 2.3rem;
-	
 }
-.text{
+.text {
 	font-size: 1.2rem;
 }
 
-.serviceImg{
+.serviceImg {
 	width: 6em;
 }
 
-.layOut{
+.layOut {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.whiteBox{
+.whiteBox {
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
-	
 }
 
-.clientesRes{
+.clientesRes {
 	display: none;
 }
-.clientesDes{
+.clientesDes {
 	display: block;
 }
 
-.presupuestoCont{
-	background: #1870AF;
+.presupuestoCont {
+	background: #1870af;
+	color: white;
+}
+
+.footerGlobal {
+	background: #1870af;
+	height: 100%;
 	color: white;
 }
