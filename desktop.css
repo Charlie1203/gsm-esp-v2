@@ -181,3 +181,26 @@ body {
 	height: 100%;
 	color: white;
 }
+.selectStyle {
+	border-radius: 10px;
+	border: none;
+}
+
+.boxCeleste {
+	background-color: #6eaedd;
+	color: black;
+	border-radius: 10px;
+}
+
+.tune {
+	position: relative;
+	left: -4em;
+}
+
+.btnRed {
+	background-color: #ed2025;
+	color: white;
+	border: none;
+	font-weight: 600;
+	border-radius: 5px;
+}
